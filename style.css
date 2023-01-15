@@ -415,3 +415,262 @@ footer p {
   padding: 3rem;
   text-align: center;
 }
+
+
+
+@media (max-width: 576px) {
+
+  /* --------Styling the Header section--------- */
+  
+    .header__img {
+      width: 90%;
+      margin: 5rem auto 4rem auto;
+    }
+  
+    .header__img img {
+      width: 100%;
+    }
+
+
+
+
+
+
+
+    /* --------Styling the nav section--------- */
+
+    .nav {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+    }
+  
+    .nav__title {
+      font-size: 7rem;
+    }
+  
+    .nav__section {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .nav__section--elements {
+      font-size: 4rem;
+    }
+  
+    .header__title {
+      width: 95rem;
+      font-size: 10rem;
+    }
+  
+    .header__details {
+      width: 80rem;
+      font-size: 4rem;
+    }
+  
+  
+  
+
+
+  
+  
+    /* ------Styling Pre-Feature Images and Feature Header------ */
+
+  .feature-header {
+    flex-direction: column;
+    align-items: center;
+  }
+  .feature-header__images {
+    grid-template-columns: 1fr;
+  }
+
+  .feature-header__articles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 74rem;
+  }
+  .feature-header__title {
+    font-size: 9rem;
+    width: 100%;
+    text-align-last: center;
+  }
+  .feature-header__details {
+    text-align: justify;
+    width: 100%;
+    margin: 2.4rem 3.4rem;
+    padding-right: 2rem;
+    font-size: 4rem;
+  }
+
+  .header__button,
+  .feature-header__button {
+    padding: 3rem 4rem;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 5rem;
+  }
+
+
+
+
+
+
+
+
+/* -----Styling the feature section----- */
+
+  .feature-section {
+    flex-direction: column;
+    margin: 15 auto;
+  }
+  .feature-section__article {
+    margin-left: 1rem;
+    width: 100%;
+  }
+
+  .feature-section__article--header {
+    padding: 2rem 3rem;
+    width: 96rem;
+    font-weight: 700;
+    font-size: 6rem;
+    border-left: 2rem solid #ff900e;
+  }
+
+  .feature-section__article--header:hover {
+    border-left: 2rem solid #1dee02;
+  }
+
+  .feature-section__article--details,
+  .feature-section__article--details__div--details {
+    text-align: left;
+    font-size: 4rem;
+  }
+  .feature-section__article--details__div {
+    height: 28rem;
+  }
+
+  .feature-section__article--details__div--header {
+    font-size: 5rem;
+    text-align: center;
+  }
+
+  .feature-section__button {
+    width: 46rem;
+    margin: -12rem 30rem;
+    padding: 4rem 5rem;
+  }
+
+  .feature-section__button span:nth-child(1) {
+    font-size: 7rem;
+  }
+
+  .feature-section__button span:nth-child(2) {
+    font-size: 4rem;
+  }
+
+
+
+
+
+
+
+
+
+/* ------styling the fact section------ */
+
+  .fact-section__header {
+    text-align: center;
+    font-size: 8rem;
+  }
+
+  .fact-section__details {
+    width: auto;
+    text-align: center;
+    font-size: 4rem;
+  }
+  .fact-section__presentation--div {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .fact-section__presentation {
+    height: 40rem;
+    width: 40rem;
+    flex-direction: column;
+  }
+
+  .fact-section__presentation--icon {
+    width: 10rem;
+    height: 10rem;
+  }
+  .fact-section__presentation--amount {
+    font-size: 7rem;
+  }
+  .fact-section__presentation--details {
+    font-size: 4rem;
+  }
+
+
+
+
+
+
+/* ------styling the sponsor section------ */
+
+  .sponsor-section__heading {
+    font-size: 8rem;
+  }
+  .sponsor-section__details {
+    font-size: 4rem;
+    text-align: center;
+  }
+  .sponsor-section-images {
+    width: 30%;
+  }
+
+  .sponsor-section-images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+  }
+
+
+
+
+
+
+/* This section is added by me , there are three quotes with authors , added left-border on hover effect */
+
+  .quote-section {
+    margin: auto;
+    flex-direction: column;
+    width: 70%;
+    gap: 2rem;
+  }
+
+  .motivation h2 {
+    font-size: 8rem;
+  }
+
+  .motivation__quote--text {
+    font-size: 4rem;
+  }
+  .motivation__quote--author {
+    font-size: 4.2rem;
+  }
+
+
+
+
+
+
+/* ------footer section------ */
+
+  footer p {
+    font-size: 4rem;
+  }
+
+}
